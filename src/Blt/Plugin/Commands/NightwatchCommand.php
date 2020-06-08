@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Blt\Robo\Commands\Tests;
+namespace Acquia\BltDrupalTest\Blt\Plugin\Commands;
 
 /**
  * Defines commands in the "tests" namespace.
