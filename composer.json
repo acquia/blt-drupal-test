@@ -1,6 +1,5 @@
 {
   "name": "acquia/blt-drupal-test",
-  "type":"composer-plugin",
   "description": "PHPUnit integration for Acquia BLT",
   "license": "GPL-2.0+",
   "authors":[
