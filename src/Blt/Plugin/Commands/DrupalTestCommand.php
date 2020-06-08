@@ -2,6 +2,7 @@
 
 namespace Acquia\BltDrupalTest\Blt\Plugin\Commands;
 
+use Acquia\Blt\Robo\Commands\Tests\TestsCommandBase;
 use Acquia\Blt\Robo\Exceptions\BltException;
 use Robo\Contract\VerbosityThresholdInterface;
 
