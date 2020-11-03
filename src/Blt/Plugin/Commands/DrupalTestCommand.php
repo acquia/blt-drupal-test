@@ -94,7 +94,7 @@ class DrupalTestCommand extends TestsCommandBase {
    * Executes tests found in either tests.phpunit or tests.drupal-tests.
    *
    * @command tests:drupal:run
-   * @aliases tdr
+   * @aliases tdr tests:drupal
    * @description Executes tests with Drupal core's testing framework. Launches chromedriver prior to execution.
    *
    * @interactGenerateSettingsFiles
