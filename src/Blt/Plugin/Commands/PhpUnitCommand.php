@@ -55,6 +55,11 @@ class PhpUnitCommand extends DrupalTestCommand {
     $this->reportsDir = $this->getConfigValue('tests.reports.localDir') . '/phpunit';
     $this->reportFile = $this->reportsDir . '/results.xml';
     $this->phpunitConfig = $this->getConfigValue('tests.phpunit');
+
+    // Reset testing env variables.
+    $this->testingEnv = NULL;
+    $this->testingEnvString = NULL;
+
     try {
       $this->executeTests();
     }
